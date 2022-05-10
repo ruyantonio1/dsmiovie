@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 :root {
-    --bd-gray:#E8E8E8;
+    --bg-gray:#ddd;
     --color-primary: #4D41C0;
     --white: #fff;
     --text-gray: #4a4a4a;
@@ -63,9 +63,12 @@ a, a:hover {
     padding: 40px 0;
 }
 .dsmovie-card{
-    width: 360px;
-    
+    width: 100%;
+}
 
+.dsmovie-card:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(0,0,0,1.6);
 }
 
 .dsmovie-card img{
@@ -75,11 +78,14 @@ a, a:hover {
 
 .dsmovie-card-description{
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
+
    
 }
 
@@ -87,6 +93,7 @@ a, a:hover {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .dsdmovie-btn, .dsdmovie-btn:hover {
