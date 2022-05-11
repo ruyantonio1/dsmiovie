@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6{
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #AAA;
+    --star-yellow: #ffbb3a;
 }
 
 
@@ -85,7 +86,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 
    
 }
@@ -96,6 +97,31 @@ a, a:hover {
     margin-bottom: 25px;
     text-align: center;
 }
+
+.dsmovie-card-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+    margin-bottom: 10px;
+}
+
+.dsmovie-card-description-bottom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+}
+.dsmovie-card-description-bottom img{
+    width: 22px;
+
+
+}
+
 
 .dsdmovie-btn, .dsdmovie-btn:hover {
     width: 180px;
